@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="lunatic-icon" sizes="180x180" href=".//logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href=".//logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href=".//logo.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script type="text/javascript">
+        function togglemenu(){
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+
+    </script>
+
+</head>
+<body background="#ffe5b4" style="margin: 0px;">
+    <header>
+        <!-- <h1 style="color: white; background-color: cadetblue ;">Apni Kaksha</h1> -->
+        <div class="banner"></div>
+    </header>
+    <nav>
+        <a href="">
+            <img src=".//logo.png" alt="" height="50px" width="50px">
+        </a>
+        <a href="#" class="menu-btn" style="height: 15px;">Home</a>
+        <a href="#" class="menu-btn" style="height: 15px;">About us</a>
+        <a href="#" class="menu-btn" style="height: 15px;" >Contact us</a>
+    </nav>
+    
+    <div id="sidebar" onclick="togglemenu()">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li>Videos</li>
+            <li>Blogs</li>
+            <li>Articles</li>
+            <li>Statistics</li>
+        </ul>
+
+    </div>
+
+    <main style="padding: 0px;" >
+        <section style="background: #ffe5b4" >
+            <h2 class="btn" style="text-align: center; color: black;"> <span>Recent Blogs/Videos</span> </h2>
+            <!-- <h1>Flickity - groupCells</h1> -->
+
+                <!-- Flickity HTML init -->
+                <div class="carousel" data-flickity='{ "groupCells": true }'>
+                    <div class="carousel-cell"><iframe width="400" height="315"  src="https://www.youtube.com/embed/_NkqwMitQ8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="carousel-cell"><iframe width="400" height="315" src="https://www.youtube.com/embed/LZ2giAaHNYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="carousel-cell"><iframe width="400" height="315" src="https://www.youtube.com/embed/LZ2giAaHNYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="carousel-cell"><iframe width="400" height="315" src="https://www.youtube.com/embed/t0ka45g4Fyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+        </section>
+    </main>
+    <main style="background: #ffe5b4">
+        <section>
+            <h2 class="btn" style="text-align: center; color: black;"> <span>Recent News</span> </h2>
+            <a class="news" href="https://economictimes.indiatimes.com/tech/funding/recykal-raises-22-million-from-morgan-stanley-existing-investors/articleshow/88824251.cms" target="_blank"><img src=".//waste1.jpg" alt="this is an image" style="border-color: black; border-width: 5px;
+             border-radius: 5%;"> </a>
+            <a class="news" href="https://economictimes.indiatimes.com/tech/funding/recykal-raises-22-million-from-morgan-stanley-existing-investors/articleshow/88824251.cms" target="_blank"><img src=".//waste2.jfif" alt="this is an image" style="border-color: black; border-width: 5px;
+            border-radius: 5%;"> </a>
+            <a class="news" href="https://economictimes.indiatimes.com/tech/funding/recykal-raises-22-million-from-morgan-stanley-existing-investors/articleshow/88824251.cms" target="_blank"><img src=".//waste 3.jfif" alt="this is an image" style="border-color: black; border-width: 5px;
+            border-radius: 5%;"> </a>
+            <a class="news" href="https://economictimes.indiatimes.com/tech/funding/recykal-raises-22-million-from-morgan-stanley-existing-investors/articleshow/88824251.cms" target="_blank"><img src=".//waste4.jfif" alt="this is an image" style="border-color: black; border-width: 5px;
+            border-radius: 5%;"> </a>
+
+            
+        </section>
+    </main>
+    <main>
+        <section>
+            <h2 class="btn" style="text-align: center; color: black;"> <span>Testimonials</span> </h2>
+            <a href="#"></a>
+        </section>
+    </main>
+    <div>
+        <footer >
+            <a class="menu-btn foot-btn" href="#" style="float: right;">&copy; 2022 | Lunatic Bytes</a>
+            <a href="" >
+                <img src=".//logo.png" alt="" height="50px" width="50px" style="margin:4px; margin-left: 765px;"  >
+            </a>  
+        </footer>
+    </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
